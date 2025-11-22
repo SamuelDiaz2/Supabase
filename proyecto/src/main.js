@@ -49,7 +49,7 @@ export async function cargarMenu() { // Exportar por si se necesita desde Cerrar
   <button data-action="actividades">Actividades</button>
   <button data-action="usuarios">Usuarios</button>
   <button data-action="logout">Cerrar sesión</button>
-  ${user.email === 'admin@mail.com' ? '<button data-action="admin">Admin</button>' : ''}
+  ${user.email === 'samuel.diazf@uniagustiniana.edu.co' ? '<button data-action="admin">Admin</button>' : ''}
   </div>
  `;
  }
